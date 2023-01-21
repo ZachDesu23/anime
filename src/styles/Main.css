@@ -1,0 +1,76 @@
+.main--div{
+    display: block;
+    padding: 50px;
+    height: 100%;
+   
+  }
+  
+  .main--div> h2{
+    margin-left: 50px;
+  }
+
+  .card--container{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: 30px 0;
+    padding: 20px 20px;
+    justify-items: start;
+  
+  
+  }
+  
+  .main--selector{
+    display: flex;
+    gap: 1rem;
+    margin:0 30px;
+  }
+  
+  button{
+    padding: 10px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  select{
+    padding: 10px 10px;
+    border-radius: 5px;
+    margin-right: auto;
+  }
+
+
+  
+  .btn--popular:hover{
+    background: black;
+    color: white;
+  }
+
+input{
+  padding: 10px 15px;
+}
+
+@media (max-width:1400px) {
+  .card--container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(230px,1fr));
+    gap: 30px 0;
+    padding: 20px 20px;
+    justify-items: start;
+  
+  }
+}
+
+
+
+@media (max-width:800px) {
+  .main--selector{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  button{
+    width: 150px;
+  }
+  input{
+    width: 120px;
+  }
+}

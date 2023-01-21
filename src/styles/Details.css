@@ -1,0 +1,59 @@
+
+.anime--img--container{
+    width: 20rem;
+    height: 30rem;
+
+}
+
+.anime--img--container>img{
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+.main--content{
+    display: flex;
+    gap: 40px;
+    border: 1px solid black;
+    border-radius: .75rem;
+    padding: 2rem 4rem;
+
+}
+.main{
+    padding: 50px 100px;
+}
+
+h2,h3,p{
+    margin-bottom: .2rem;
+    font-size: 1rem;
+
+}
+
+h3{
+    margin-right: 20px;
+}
+
+@media (max-width:900px) {
+    .main--content{
+        display: block;
+        gap: 40px;
+        border: 1px solid black;
+        border-radius: .75rem;
+        padding: 2rem 4rem;
+    
+    }
+    
+    .anime--img--container{
+    width: 20rem;
+    height: 20rem;
+
+    }
+    
+    .anime--img--container>img{
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+}

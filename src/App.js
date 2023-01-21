@@ -1,24 +1,14 @@
-import logo from './logo.svg';
+import HomePage from './Pages/Hompage';
 import './App.css';
+import {Link, Route, Routes} from 'react-router-dom';
+import AnimeDetail from './Pages/AnimeDetailsPage';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Routes>
+      <Route path='/' element={<HomePage/>}/>
+      <Route path='/animeDetail/:id' element={<AnimeDetail/>}/>
+    </Routes>
   );
 }
 
