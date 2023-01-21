@@ -34,7 +34,7 @@ h3{
     margin-right: 20px;
 }
 
-@media (max-width:900px) {
+@media (max-width:1000px) {
     .main--content{
         display: block;
         gap: 40px;
@@ -59,7 +59,36 @@ h3{
 }
 
 @media (max-width:700px) {
+    .main--content{
+        display: block;
+        gap: 40px;
+        border: 1px solid black;
+        border-radius: .75rem;
+        padding: 10px 20px;
+    
+    }
+    .anime--img--container{
+        width: 200px;
+        height: 200px;
+    }
+    .anime--img--container>img{
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 1rem;
+    }
     .main{
-        padding: 10px;
+        padding: 10px 30px;
+    }
+
+    h1{
+        font-size: 1.5rem;
+    }
+    h2,h3{
+        font-size: .8rem;
+    }
+    p{
+        font-size: .8rem;
     }
 }
+

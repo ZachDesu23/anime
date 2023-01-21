@@ -51,7 +51,7 @@ input{
 @media (max-width:1400px) {
   .card--container{
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(230px,1fr));
+    grid-template-columns: repeat(auto-fit,minmax(210px,1fr));
     gap: 30px 0;
     padding: 20px 20px;
     justify-items: start;
@@ -61,11 +61,65 @@ input{
 
 
 
-@media (max-width:800px) {
+@media (max-width:700px) {
+
   .main--div{
-    display: block;
+    display: grid;
     height: 100%;
    
+  }
+  .card--container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px 0;
+    padding: 20px 20px;
+    justify-items: start;
+  
+  
+  }
+  .main--selector{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  button{
+    padding: 0 10px;
+    width: 100px;
+    height: 50px;
+    font-size: 10px;
+    
+  }
+  input{
+    width: 120px;
+  }
+
+
+}
+
+
+@media (max-width:400px) {
+
+  .main--div{
+    display: grid;
+    height: 100%;
+
+   
+  }
+
+  .main--selector{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 10px 0px;
+  }
+
+  .card--container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px 10px;
+    padding: 20px 0px;
+    justify-items: start;
+  
+  
   }
   .main--selector{
     display: grid;
@@ -73,7 +127,11 @@ input{
   }
 
   button{
-    width: 150px;
+    padding: 0 10px;
+    width: 100px;
+    height: 50px;
+    font-size: 10px;
+    
   }
   input{
     width: 120px;

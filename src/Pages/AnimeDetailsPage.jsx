@@ -34,6 +34,7 @@ export default function AnimeDetail(){
                 <p>{anime.synopsis}</p>
                 <h3>Status: {anime.status}</h3>
                 <h3>Type: {anime.type}</h3>
+               
             
                
             </div>
