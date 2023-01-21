@@ -79,7 +79,7 @@ input{
   }
   .main--selector{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
   }
 
   button{
@@ -115,8 +115,8 @@ input{
   .card--container{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    gap: 30px 10px;
-    padding: 20px 0px;
+    gap: 30px 0px;
+    padding: 20px 20px;
     justify-items: start;
   
   
