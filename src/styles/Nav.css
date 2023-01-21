@@ -14,3 +14,12 @@ nav>img{
     cursor: pointer;
   }
   
+@media (max-width:700px) {
+  nav>img{
+    width: 70px;
+    cursor: pointer;
+  }
+  nav{
+    padding: 20px 40px;
+  }
+}
