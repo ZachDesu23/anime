@@ -1,23 +1,31 @@
 
 nav{
     display: flex;
+    gap: 20px;
     align-items: center;
     background: black;
     height: 50px;
     padding: 40px 100px;
+  
 
   }
 
+  .animania{
+  width: 150px;
+  }
   
-nav>img{
+  .home{
     width: 100px;
     cursor: pointer;
   }
   
 @media (max-width:700px) {
-  nav>img{
-    width: 70px;
+  .home{
+    width: 5rem;
     cursor: pointer;
+  }
+  .animania{
+    width: 7rem;
   }
   nav{
     padding: 20px 40px;
