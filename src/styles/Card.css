@@ -8,6 +8,13 @@
   padding: 20px;
   font-size: .7rem;
   height: 90%;
+  transition: .5s;
+}
+
+
+.img--card:hover{
+  transform: scale(1.07);
+
 }
 
 .img--card>img{
