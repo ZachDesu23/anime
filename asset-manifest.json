@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/anime/static/css/main.03f66c36.css",
-    "main.js": "/anime/static/js/main.6dbd6ee5.js",
+    "main.css": "/anime/static/css/main.13143006.css",
+    "main.js": "/anime/static/js/main.324cc646.js",
     "static/js/787.aaa38906.chunk.js": "/anime/static/js/787.aaa38906.chunk.js",
     "static/media/Animania-noBg.png": "/anime/static/media/Animania-noBg.704ffe4c9f64965a23b8.png",
     "index.html": "/anime/index.html",
-    "main.03f66c36.css.map": "/anime/static/css/main.03f66c36.css.map",
-    "main.6dbd6ee5.js.map": "/anime/static/js/main.6dbd6ee5.js.map",
+    "main.13143006.css.map": "/anime/static/css/main.13143006.css.map",
+    "main.324cc646.js.map": "/anime/static/js/main.324cc646.js.map",
     "787.aaa38906.chunk.js.map": "/anime/static/js/787.aaa38906.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.03f66c36.css",
-    "static/js/main.6dbd6ee5.js"
+    "static/css/main.13143006.css",
+    "static/js/main.324cc646.js"
   ]
 }
