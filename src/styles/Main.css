@@ -30,18 +30,21 @@
     border-radius: 5px;
     cursor: pointer;
   }
-  
-  select{
-    padding: 10px 10px;
-    border-radius: 5px;
+
+  .btn--popular{
     margin-right: auto;
   }
-
-
   
+
   .btn--popular:hover{
     background: black;
     color: white;
+    transition: .5s;
+  }
+  .btn--search:hover{
+    background: black;
+    color: white;
+    transition: .5s;
   }
 
 input{
